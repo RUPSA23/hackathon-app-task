@@ -1,0 +1,17 @@
+.create-details h1{
+background: #F8F9FD;
+padding: 15px;
+}
+.form {
+   margin: 50px;
+   margin-right: 690px;
+   
+}
+
+.button {
+    background-color: green;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}

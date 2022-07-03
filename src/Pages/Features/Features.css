@@ -1,0 +1,20 @@
+.features-section{
+    display: flex;
+    width: 1320px;
+    Height: 200px;
+    background-color: #002A3B;
+    margin-left: 14px;
+    margin-right: 14px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.features-section h1 {
+    color: #fff;
+}
+.features-section p {
+    color: #fff;
+}
+.feature{
+    display: flex;
+}

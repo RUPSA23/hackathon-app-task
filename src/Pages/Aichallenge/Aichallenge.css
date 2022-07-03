@@ -1,0 +1,28 @@
+.aichallenge h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.aichallenge {
+    margin-left: 14px;
+    margin-top: 20px;
+}
+
+.aichallenge span {
+    color: #44924C;
+
+}
+
+.fourCard {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-gap: 20px;
+    margin-left: 284px;
+    margin-top: 40px;
+}
+
+.card {
+    Width: 542px;
+    Height: 200px;
+   
+}
