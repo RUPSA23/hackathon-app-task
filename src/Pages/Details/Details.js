@@ -15,7 +15,7 @@ const Details = () => {
       </div>
       <div className="overview">
       <div><h4>Overview</h4></div>
-        <div><Button href="#" variant="success" className="edit-button">Edit</Button>
+        <div><Button href="/edit" variant="success" className="edit-button">Edit</Button>
         <Button  variant="outline-danger">Delete</Button></div>
       </div>
       <div className="paragraph">
