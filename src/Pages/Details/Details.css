@@ -1,0 +1,66 @@
+.Details {
+    Height: 319px;
+    margin-top: 4px;
+    margin-left: 14px;
+    margin-right: 14px;
+    background-color: #003145;
+    padding-top: 51px;
+    margin-bottom: 20px;
+}
+
+.Details h2 {
+    color: #fff;
+    margin-left: 127px;
+    margin-bottom: 23px;
+}
+
+.Details h6 {
+    color: #fff;
+    margin-left: 127px;
+    margin-bottom: 30px;
+}
+
+.Details h5 {
+    margin-bottom: 10px;
+    background-color:
+        #FFCE5C;
+    Width: 464px;
+    padding: 11px;
+    Height: 34px;   
+    margin-left: 130px;
+    border-radius: 5px;
+}
+
+.Details Button {
+    margin-left: 130px;
+}
+
+.overview {
+margin-left: 14px;
+margin-right: 14px;
+margin-bottom: 36px;
+Height: 56px;
+background-color: #FFFFFF;
+border-bottom: 2px solid #DDE6ED;  
+display: flex;
+}
+
+.overview h4 {
+    margin-left: 147px;
+    border-bottom: 3px solid green;
+}
+.edit-button {
+    margin-left: 800px;
+}
+.overview Button {
+    margin: 5px;
+}
+
+.paragraph {
+    margin-left: 14px;
+}
+.paragraph p {
+    margin-left: 126px;
+    margin-right: 358px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}

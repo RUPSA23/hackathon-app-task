@@ -1,0 +1,15 @@
+.explore-challenges{
+Width: 1240px;
+Height: 160px;
+background-color: #002A3B;
+margin-top: 60px;
+margin-left: 14px;
+margin-right: 14px;
+}
+
+.explore-challenges h1 {
+    text-align: center;
+    color: #FFFFFF;
+    size: 40px;
+    margin-bottom: 40px;
+}

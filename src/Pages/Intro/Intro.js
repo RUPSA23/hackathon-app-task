@@ -1,7 +1,6 @@
 import React from 'react';
 import CSS from './Intro.css';
 import {Link} from 'react-router-dom';
-import rocketimage from '../../assets/icons/PicsArt_04-14-04.42 1.svg'
 
 const Intro = () => {
   return (
@@ -20,7 +19,6 @@ const Intro = () => {
         </div>
         <div class="half-width">
             <img src= "/assets/icons/PicsArt_04-14-04.42 1.svg" alt="image"/>
-            {/* <img src={rocketimage} alt="image"/> */}
         </div>
     </section>
   )
