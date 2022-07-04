@@ -1,9 +1,15 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Button from 'react-bootstrap/Button';
-import css from "./Details.css"
+import css from "./Details.css";
+import { useNavigate } from "react-router-dom";
 
 const Details = () => {
+//     const navigate = useNavigate();
+
+//     const handleEdit = ()  => {
+//       navigate('/');
+//   }
   return (
     <div>
       <Navbar></Navbar>
@@ -15,8 +21,10 @@ const Details = () => {
       </div>
       <div className="overview">
       <div><h4>Overview</h4></div>
-        <div><Button href="/edit" variant="success" className="edit-button">Edit</Button>
-        <Button  variant="outline-danger">Delete</Button></div>
+        <div>
+        <Button href="/edit" variant="success" className="edit-button"> Edit
+        </Button>
+        <Button variant="outline-danger">Delete</Button></div>
       </div>
       <div className="paragraph">
         <p>Butterflies are the adult flying stage of certain insects belonging to an order or group called Lepidoptera. The word "Lepidoptera" means "scaly wings" in Greek. This name perfectly suits the insects in this group because their wings are covered with thousands of tiny scales overlapping in rows. An agency of the Governmental Wildlife Conservation is planning to implement an automated system based on computer vision so that it can identify butterflies based on captured images. As a consultant for this project, you are responsible for developing an efficient model. Your Task is to build an Image Classification Model using CNN that classifies to which class of weather each image belongs to.</p>

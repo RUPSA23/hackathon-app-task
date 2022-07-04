@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import css from "./Edit.css";
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { Link } from "react-router-dom";
@@ -9,7 +8,7 @@ import imgae from '../../assets/icons/bi_image-fill.svg';
 
 const CreateChallenge = () => {
   return (
-    <div className="create-details">
+    <div className="change-details">
       <Navbar></Navbar>
       <h1>Challenge Details</h1>
       <div className="form">

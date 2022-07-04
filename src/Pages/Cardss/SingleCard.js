@@ -12,7 +12,7 @@ const SingleCard = (props) => {
 
     const { card } = props;
   return (
-    <div >
+    <div>
       <Card className="text-center" style={{ width: "18rem", margin: "auto", height: "400px" }}>
         <Card.Img variant="top" src={card.image} />
         <Card.Body>
